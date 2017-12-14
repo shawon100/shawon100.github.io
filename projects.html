@@ -1,0 +1,31 @@
+---
+layout: page
+title: Projects
+---
+
+<div class="container">
+<h3>My Projects</h3>
+  <div class="panel panel-default">
+    <div class="panel-body">
+		{% for post in site.categories.projects %}
+			<div class="row">
+				<div class="col-sm-3 col-md-3 col-lg-3">
+				</div>
+				 <div class="col-sm-3 col-md-3 col-lg-3">
+					 <div style="font-size:15px;padding-top:10px;">
+					 	{{ post.date | date: "%B %e, %Y" }}
+					 </div>
+					 
+				 </div>
+				 <div class="col-sm-6 col-md-6 col-lg-6">
+					 <div style="font-size:15px;padding-top:10px;">
+					 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+					 </div>
+					 
+				 </div>
+			</div>
+	    {% endfor %}
+	</div>
+  </div>
+</div>
+

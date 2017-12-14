@@ -1,0 +1,24 @@
+# top level stuff you probably don't need to touch
+
+
+
+
+# edit here to achieve your personal greatness
+url: https://shawon.mektekbd.com
+baseurl: http://shawon.mektekbd.com/
+title: Ashadullah Shawon
+author: Ashadullah Shawon
+description: Personal blog and resume
+avatar: shawon.jpg
+email: shawonashadullah@gmail.com
+github: shawon100 # username
+twitter: shawon_2012
+linkedin: ashadullah-shawon-b51606aa
+stackoverflow: users/3859220/shawon   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+disqus: MekTek
+google_analytics: UA-79520588-3
+markdown: kramdown
+
+# needed for travis-ci build
+exclude: [vendor]
