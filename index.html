@@ -1,17 +1,358 @@
 ---
-layout: home
+
 ---
 
-<section id="about">
-	<div class="container">
-	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
-	  </div>
-	  <h3>I'm <strong>{{ site.author }}</strong>, a Software Engineer,</h3>
-	  <h3>Machine Learning and Deep Learning Researcher.</h3>
-	  <h3>Have a look at some of my working <a href="{{ site.baseurl }}projects.html"> projects</a>.</h3>
-	  <h3>For more, check out my academic &amp; professional <a href="resume.html">Resume</a>.</h3>
-	  <h3>Contact me at <a href="http://facebook.com/ashadullah.shawon">@ Facebook</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
-	  {% include social.html %}
-	</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ashadullah Shawon's Resume</title>
+    <meta name="description" content="Ashadullah Shawon's Resume">
+    <meta name="author" content="Ashadullah Shawon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="static/css/base.css">
+    <link rel="stylesheet" href="static/css/skeleton.css">
+    <link rel="stylesheet" href="static/css/layout.css">
+    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+     <script src="js/vendor/jquery-1.12.0.min.js"></script>
+     <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+      <script src="bootstrap-3.3.7/js/bootstrap.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="static/img/favicon.png">
+    <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
+
+    <style>
+     .gap
+     {
+         margin-left: 150px;
+     }
+     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: rgb(51,133,255);
+}
+     
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <!--<a class="navbar-brand" href="{{ site.baseurl }}"><i class="fa fa-home"></i></a>-->
+      <!--<a id="tn" class="" href="http://mektekbd.com"><span data-i18n="website.title"><img src="favicon.png" class="img-responsive" width="50px" height="50px"/></span></a>-->
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+         <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="index.html">RESUME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+   
+  <div class="row">
+   <div class="col-sm-4">
+    <header class="three columns">
+        <img src="static/img/shawon.jpg" class="me">
+        <h1>Ashadullah Shawon</h1><br>
+        <h4><u>Phone</u></h4>
+        <p>
+            <a href="tel:+8801757687942">+8801757687942</a><br>
+        </p><br>
+        <address>
+            <h4><u>Address</u></h4>
+            <a href="https://www.google.com/maps/place/Dhaka/data=!4m2!3m1!1s0x3755b8b087026b81:0x8fa563bbdd5904c2?ved=2ahUKEwjGhqnOx9LgAhVBQ48KHTOHBd8Q8gEwAHoECAAQAQ">
+                Dhaka<br/>
+                Bangladesh
+            </a><br>
+        </address><br>
+        <h4><u>Website</u></h4>
+        <p>
+            <a href="https://shawon100.github.io">shawon100.github.io</a><br>
+            <a href="http://shawonruet.blogspot.com">shawonruet.blogspot.com</a><br/><br>
+        </p>
+        <p>
+            <h4><u>Email</u></h4>
+            <a href="mailto:shawonashadullah@gmail.com">shawonashadullah@gmail.com</a><br>
+            <a href="mailto:shawona@frontiersemi.com">shawona@frontiersemi.com</a><br><br>
+            <h4><u>Social</u></h4>
+            <a href="https://github.com/shawon100"><i class="fa fa-github"></i> Github</a><br/>
+            <a href="https://www.researchgate.net/profile/Ashadullah_Shawon"><i class="fa fa-university"></i> ResearchGate</a><br/>
+             <a href="https://stackoverflow.com/users/3859220/shawon"><i class="fa fa-stack-overflow"></i> Stack Overflow</a><br>
+             <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i> Linkedin</a><br>
+            <a href="https://facebook.com/ashadullah.shawon"><i class="fa fa-facebook"></i> Facebook</a><br>
+             <a href="https://twitter.com/shawon_2012"><i class="fa fa-twitter"></i> Twitter</a><br/><br><br>
+        </p>
+    </header>
+    </div>
+    <div class="col-sm-8">
+    <div class="thirteen columns clearfix">
+
+        <section class="thirteen columns">
+    <h1>Work Experience</h1>
+    <article>
+        <header>
+            <h1>DevOps Engineer</h1>
+            <span><a href="http://www.selise.ch">SELISE Digital Platform</a><time>--June, 2020 to Present</time></span>
+        </header>
+        <p>I am working on cutting edge cloud technologies like Docker, Kubernetes, Helm, CI/CD pipelines on Azure to build a highly available, scalable, automated, and secure infrastructure for micro-service based applications.</p>
+    </article> 
+    <article>
+        <header>
+            <h1>Software Engineer</h1>
+            <span><a href="http://www.frontiersemi.com">Frontier Semiconductor</a><time>--February, 2019 to Present</time></span>
+        </header>
+        <p>Developing softwares and involved in a research to change the existing system.</p>
+   </article>         
+    <!-- <article>
+        <header>
+            <h1>Competition Contributor</h1>
+            <span><address>Kaggle</address><time>June, 2018 to Present</time></span>
+        </header>
+        <p>I have participated in several competitions in kaggle. Check out my kaggle profile for more information. <a href="https://www.kaggle.com/shawon10">My Kaggle profile</a> </p>
+   </article>            -->
+    <!--<article>
+        <header>
+            <h1>Founder Member</h1>
+            <span><address>MekTek R&D Centre</address><time>January, 2017 to Present</time></span>
+        </header>
+        <p>MekTek, a collaborative research & devlopment platform of Hardware, Software, Robotics, Industrial automation, IoT, recent Web technologies and many more. </p>
+   </article> -->        
+    <!-- <article>
+        <header>
+            <h1>Web Developer</h1>
+            <span><address>Freelancer</address><time>2017 to Present</time></span>
+        </header>
+        <p>I have developed several web applications like <a href="https://github.com/shawon100/RUET-OJ">RUET online judge</a>, <a href="http://mektekbd.com">MekTek's Website</a> , <a href="http://ruet13.freeiz.com">Image Layer</a> , <a href="http://ruetchatbot.000webhostapp.com/">RUET Chat Bot</a> , <a href="https://shawon100.github.io/Button-Generator/index.html">Button Generator</a> , <a href="https://www.npmjs.com/package/bigprime">BigPrime Module</a> </p>
+    </article>
+    <article>
+        <header>
+            <h1>Java Developer</h1>
+            <span><address>Projects, RUET</address><time>2014 to 2015</time></span>
+        </header>
+        <p>Some important java desktop software was developed by me. These are <a href="https://github.com/shawon100/Code-Generator">Code Generator</a> , <a href="https://github.com/shawon100/ide">C/C++ IDE</a> , Emergency Doctor , <a href="https://github.com/shawon100/Java-Simple-Browser">Simple Browser</a> etc .</p>
+    </article>
+    <article>
+        <header>
+            <h1>Competitive Programmer</h1>
+            <span><address>Programming, RUET</address><time>2014 to Present</time></span>
+        </header>
+        <p>I have participated some online and onsite programming contest. Besides i like to solve problems of differnet online judges . I have solved some problems of <a href="http://uhunt.felix-halim.net/id/473943">UVA</a> , <a href="https://devskill.com/Home/PublicProfile/shawon100">Devskill</a> , <a href="http://lightoj.com/volume_userstat.php?user_id=17694">LightOj</a> , <a href="https://www.hackerrank.com/shawon10">HackerRank</a> etc </p>
+    </article> -->
+   
+  
 </section>
+
+
+<section class="thirteen columns">
+    <h1>Education</h1>
+    <article>
+        <header>
+            <h1>Studied BSC in Computer Science And Engineering</h1>
+            <span>Rajshahi University of Engineering & Technology (RUET)</span>
+            <span><address>Rajshahi , Bangladesh</address><time>2014 to 2018</time></span>
+        </header>
+        <p>
+            
+        </p>
+    </article>
+   
+</section>
+
+<section class="thirteen columns">
+    <h1>Research Experience</h1>
+    <article>
+        <header>
+            <ol>
+                <li><a href="https://ieeexplore.ieee.org/document/8631907" target="_blank" >Website Classification Using Word Based Multiple N-Gram Models And Random Search Oriented Feature Parameters</a> | Status: Accepted | 21th International Conference on Computer and Information Technology (ICCIT 2018), 21-22 December, 2018 | 1st Author | Publisher : IEEE</li>
+                <li><a href="https://ieeexplore.ieee.org/document/8554900" target="_blank" >Bangla Handwritten Digit Recognition Using Deep CNN for Large and Unbiased Dataset</a> | Status: Accepted | 1st International Conference on Bangla Speech and Language Processing (ICBSLP), 21-22 September, 2018 | 1st Author| Publisher : IEEE</li>
+                <li><a href="https://ieeexplore.ieee.org/document/8628152" target="_blank" >ENSEMBLE OF MULTIPLE MODELS FOR ROBUST INTELLIGENT HEART DISEASE PREDICTION SYSTEM</a>| Status: Accepted| 4th International Conference on Electrical Engineering and Information & Communication Technology, 13-15 September, 2018 | 4th Author| Publisher : IEEE</li>
+            </ol>
+            
+            
+        </header>
+        
+    </article>
+   
+</section>       
+
+
+<section class="thirteen columns">
+    <h1>Skills</h1>
+     <!-- <article>
+        <header>
+            <h1>Front End</h1>
+        </header>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>HTML5/CSS3</em>
+        <p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Bootstrap</em>
+        <p>    
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Javascript</em>, <em>jQuery</em>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Angular.js</em> , <em>Vue.js</em>
+        </p>
+       
+    </article> -->
+    <article>
+        <header>
+            <h1>Professional Skills</h1>
+        </header>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Kubernetes</em>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Docker</em>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Azure</em>
+        </p>        
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Azure DevOps</em>
+        </p>     
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>CI/CD</em>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Python</em>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>AWS</em>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Terraform</em>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Linux</em>
+        </p>
+        <p>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
+            &nbsp;&nbsp;<em>Git</em>
+        </p>
+    </article>
+    
+</section>
+        
+<section class="thirteen columns">
+    <h1>Awards & Achievements</h1>
+    <article>
+        <header>
+            <ol>
+                <li>Award of Excellence from RUET (2017).</li>
+                <li>Ranked 13th in Bangla Handwritten Digit Recognition Challenge.</li>
+                <li>2nd Runner Up in Project Showcasing at EEE Day BUET (2017).</li>
+                <li>National finalist of Microsoft Imagine Cup (2017).</li>
+                <li>1st Runner Up in IT contest at KUET (2016).</li>
+            </ol>
+            
+            
+        </header>
+        
+    </article>
+   
+</section>  
+<!--  
+<section class="thirteen columns">
+    <h1>Certification</h1>
+    <article>
+        <header>
+            <ol>
+                <li>How Google Does Machine Learning (2018) <a href="https://www.coursera.org/account/accomplishments/certificate/6TY3GW26QRYQ">[Certificate Link]</a></li>
+                <li>Intro to Python for Data Science (2017) <a href="https://www.datacamp.com/statement-of-accomplishment/course/061bd067c2ff41e6d865df1a880eb336771f5afe">[Certificate Link]</a></li>
+                <li>Machine Learning (2017) <a href="https://www.coursera.org/account/accomplishments/certificate/KVX347VHBCYD">[Certificate Link]</a></li>
+                <li>Neural Networks & Deep Learning (2018) <a href="https://www.coursera.org/account/accomplishments/certificate/RCLJCQ7MVW6V">[Certificate Link]</a></li>
+             
+            </ol>
+            
+            
+        </header>
+        
+    </article>
+   
+</section>           -->
+
+<!--<section class="thirteen columns">
+    <h1>Initiatives</h1>
+    <article>
+        <header>
+            <h1>Graduate Summer Student</h1>
+            <span><address>University of Glasgow, UK</address><time>2013</time></span>
+        </header>
+        <p>
+            Courses: Nec et duis iriure temporibus, ullum adolescens eam ea.
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>Student Volunteer</h1>
+            <span><address>British RedCross, Glasgow, UK</address><time>2013</time></span>
+        </header>
+        <p>
+            Fundraiser: Lorem adipiscing ei eam, eros conceptam maiestatis ne sea.
+        </p>
+    </article>
+</section>-->
+
+<section class="thirteen columns">
+    <h1>Hobbies</h1>
+    <article>
+        <p>Gaming, Travelling</p>
+    </article>
+</section>
+
+
+    <footer class="thirteen columns">
+        <p>© All rights reserved 2022</p>
+    </footer>
+    </div>
+
+
+   
+    </div>
+
+    </div>
+</div>
+<a href="https://github.com/shawon100"><img style="position: absolute; top: 0; right: 0; border: 0; width: 149px; height: 149px;" src="https://raw.githubusercontent.com/shawon100/shawon100.github.io/master/fork.png" alt="Fork me on GitHub"></a>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69300817-1', 'auto');
+  ga('send', 'pageview');
+
+</script>	
+</body>
+</html>
