@@ -8,7 +8,7 @@ const education = [
     field: 'Computer Engineering',
     school: 'Ontario Tech University',
     location: 'Ontario, Canada',
-    period: '2021 – 2023',
+    period: '2023 – 2025',
     color: '#00d4aa',
     highlights: [
       'Research focus on AI/ML and system design',
