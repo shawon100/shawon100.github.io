@@ -1,6 +1,10 @@
 # OS X
 .DS_Store
 
+# Node
+node_modules/
+dist/
+
 # Jekyll build
 /_site/
 .jekyll-metadata
