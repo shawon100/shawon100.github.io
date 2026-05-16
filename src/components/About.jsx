@@ -7,7 +7,7 @@ const stats = [
   { icon: <FiAward size={22} />, value: '7+', label: 'Years Experience', color: '#00d4aa' },
   { icon: <FiCloud size={22} />, value: '3', label: 'Cloud Platforms', color: '#0ea5e9' },
   { icon: <FiZap size={22} />, value: '50%', label: 'Faster Deployments', color: '#a78bfa' },
-  { icon: <FiGlobe size={22} />, value: '15+', label: 'Microservices Managed', color: '#f59e0b' },
+  { icon: <FiGlobe size={22} />, value: '100+', label: 'Microservices Managed', color: '#f59e0b' },
 ]
 
 export default function About() {
