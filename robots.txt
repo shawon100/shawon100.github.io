@@ -1,2 +1,4 @@
 User-agent: *
-allow: /
+Allow: /
+
+Sitemap: https://shawon100.github.io/sitemap.xml

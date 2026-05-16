@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0a0f1e;
+  --color-navy-light: #0d1424;
+  --color-card: #111827;
+  --color-card-hover: #1a2235;
+  --color-border: #1e293b;
+  --color-border-subtle: rgba(255,255,255,0.05);
+  --color-teal: #00d4aa;
+  --color-teal-dark: #00b894;
+  --color-sky: #0ea5e9;
+  --color-text: #f1f5f9;
+  --color-muted: #94a3b8;
+  --color-muted-dark: #64748b;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'Fira Code', monospace;
+}
+
+/* ── Base layer: custom global styles that sit below Tailwind utilities ── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0a0f1e;
+    color: #f1f5f9;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0f1e;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #00d4aa;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00b894;
+  }
+
+  /* Selection color */
+  ::selection {
+    background: rgba(0, 212, 170, 0.3);
+    color: #f1f5f9;
+  }
+}
+
+/* ── Components layer: named reusable classes ── */
+@layer components {
+  /* Teal gradient text */
+  .text-gradient {
+    background: linear-gradient(135deg, #00d4aa, #0ea5e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Section heading underline accent */
+  .section-heading::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(to right, #00d4aa, #0ea5e9);
+    margin-top: 12px;
+    border-radius: 2px;
+  }
+}
+
+/* ── Utilities layer: one-off utility overrides ── */
+@layer utilities {
+  .teal-glow:hover {
+    box-shadow: 0 0 20px rgba(0, 212, 170, 0.15);
+  }
+
+  .font-code {
+    font-family: 'Fira Code', monospace;
+  }
+}
