@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite  && cp sitemap.xml dist/",
+    "build": "vite build && cp sitemap.xml dist/ || echo 'sitemap.xml not found'",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
