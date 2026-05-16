@@ -62,7 +62,7 @@ export default function Hero() {
           className="w-full lg:flex-1 text-center lg:text-left"
         >
           <p className="font-mono text-[#00d4aa] text-sm mb-4 tracking-widest uppercase">
-            Available · Toronto, Ontario, Canada
+            Open to remote/hybrid/onsite roles in Canada or worldwide!
           </p>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#f1f5f9] leading-tight mb-4">
