@@ -2,6 +2,7 @@ export const experience = [
   {
     id: 1,
     company: 'LTIMindtree',
+    client: 'Warner Bros Discovery (WBD), Co-Operators',
     companyUrl: 'https://www.ltimindtree.com',
     role: 'DevOps Engineer',
     type: 'Remote',
@@ -11,6 +12,8 @@ export const experience = [
     color: '#00d4aa',
     highlights: [
       'Built full production-grade Azure infrastructure from scratch — VNet, AKS cluster, Application Gateway, ACR, Key Vault, Log Analytics — with complete infra and deployment ownership.',
+      'Designed, automated, and maintained automation workflows for Boundary BoltCloud services, integrating GitHub Actions, Helm, and Kubernetes to streamline configuration deployment, improve reliability, and reduce manual operational overhead.',
+      'Implemented Boundary BR split architecture to securely forward traffic from federated cloud environments to boundary cloud services using Istio service mesh gateway, Kubernetes-native deployments, and infrastructure-as-code best practices.',
       'Led Jenkins to GitHub Actions migration for all backend and frontend services, delivering reusable workflow templates, self-hosted private runners, and standardised secret management.',
       'Deployed and operated AI/ML inference services on a GPU-enabled Kubernetes cluster with high availability — configured GPU node pools, resource quotas, pod anti-affinity rules, and HPA to ensure zero-downtime model serving under variable load.',
       'Led Kubernetes container orchestration implementation, achieving 30% reduction in infrastructure costs across multi-tenant environments.',
