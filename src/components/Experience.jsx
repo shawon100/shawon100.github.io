@@ -55,6 +55,11 @@ export default function Experience() {
                         {job.company}
                         <FiExternalLink size={12} />
                       </a>
+                      {job.client && (
+                        <span className="text-xs text-[#64748b]">
+                          Client: <span className="text-[#94a3b8]">{job.client}</span>
+                        </span>
+                      )}
                     </div>
                     <div className="flex flex-col gap-1 sm:text-right text-sm text-[#64748b]">
                       <span className="flex items-center gap-1 sm:justify-end">
