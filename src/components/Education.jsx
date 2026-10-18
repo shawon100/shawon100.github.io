@@ -13,7 +13,7 @@ const education = [
     highlights: [
       'Research focus on AI/ML and system design',
       'Machine Learning, Deep Learning, NLP, Image Processing',
-      'MLOps and LLM research (GPT-4, LLaMA2)',
+      'MLOps and LLM research (RAG, MCP, GPT-4, LLaMA2)',
     ],
   },
   {
@@ -21,12 +21,12 @@ const education = [
     field: 'Computer Science & Engineering (CSE)',
     school: 'Rajshahi University of Engineering & Technology (RUET)',
     location: 'Rajshahi, Bangladesh',
-    period: '2013 – 2018',
+    period: '2014 – 2018',
     color: '#0ea5e9',
     highlights: [
-      'Core CS fundamentals: Algorithms, OS, Networks, Databases',
+      'Core CS fundamentals: Algorithms, Machine Learning, OS, Networks, Databases',
       'Software Engineering and Design Patterns',
-      'Final year project: Image processing & defect detection',
+      'Final year project: URL Classification, Bengali Handwritten image detection',
     ],
   },
 ]
