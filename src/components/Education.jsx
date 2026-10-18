@@ -13,7 +13,7 @@ const education = [
     highlights: [
       'Research focus on AI/ML and system design',
       'Machine Learning, Deep Learning, NLP, Image Processing',
-      'MLOps and LLM research (GPT-4, LLaMA2)',
+      'MLOps and LLM research (RAG, MCP, GPT-4, LLaMA2)',
     ],
   },
   {
